@@ -1,0 +1,85 @@
+/* * {
+  border: dashed 1px red;
+} */
+
+h1 {
+  background-color: rgb(136, 174, 206);
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  max-width: 800px;
+  max-height: 1100px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 90px 1fr 50px 0.5fr 0.5fr;
+  column-gap: 5px;
+  /* border: 5px solid rgb(136, 174, 206); */
+  border: 5px solid rgb(128, 127, 126);
+  background: linear-gradient(to bottom, rgb(136, 174, 206), white);
+}
+.item1 {
+  background-color: rgb(128, 127, 126);
+  text-align: center;
+  background: linear-gradient(to toP, rgb(128, 127, 126), white);
+}
+.item2 {
+  background-color: white;
+  text-align: justify;
+  padding: 5px;
+}
+.item3 {
+  background-color: rgb(128, 127, 126);
+  color: white;
+  border-bottom: 3px solid white;
+}
+.item4 {
+  background-color: rgb(128, 127, 126);
+  grid-row: 4 / 5;
+  color: white;
+  text-align: center;
+}
+.item5 {
+  background-color: rgb(128, 127, 126);
+  grid-row: 3 / 4;
+  color: white;
+}
+.item6 {
+  background-color: rgb(128, 127, 126);
+  grid-row: 5 / 6;
+  color: white;
+}
+.item7 {
+  background-color: rgb(128, 127, 126);
+  grid-row: 6 / 7;
+  color: white;
+}
+.item8 {
+  background-color: white;
+}
+.item9 {
+  background-color: white;
+}
+.item10 {
+  background-color: white;
+  text-align: center;
+}
+.item11 {
+  background-color: white;
+}
+/* .item12 {
+  background-color: red; */
+/* } */
+
+.item1 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+/* .item1 img {
+  width: 80%;
+  height: auto;
+} */
